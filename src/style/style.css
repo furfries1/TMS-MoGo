@@ -2412,6 +2412,15 @@
 .instagram__link {
   padding: 39px 0;
 }
+.instagram__link a {
+  font-family: "Raleway-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #2d3033;
+  text-transform: uppercase;
+}
 
 .copyright {
   font-family: "Raleway-Bold";
