@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Raleway-Semi-Bold";
+    src: url(../assets/fonts/Raleway-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Raleway-Bold";
+    src: url(../assets/fonts/Raleway-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Kaushan Script";
+    src: url(../assets/fonts/KaushanScript-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/Montserrat-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Raleway-Regular";
+    src: url(../assets/fonts/Raleway-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Raleway-Medium";
+    src: url(../assets/fonts/Raleway-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: "Raleway-Black";
+    src: url(../assets/fonts/Raleway-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: "Raleway-Medium-Italic";
+    src: url(../assets/fonts/Raleway-MediumItalic.ttf);
+  }
+
+  
+%raleway-700-24px {
+    font-family: "Raleway-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    @media (max-width: 1024px) {
+      font-size: 18px;
+    }
+  }
