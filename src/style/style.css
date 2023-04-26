@@ -156,6 +156,7 @@
   max-width: 369px;
   width: 100%;
   height: 77.58px;
+  cursor: pointer;
 }
 @media (min-width: 1025px) {
   .mainpage__button button:hover {
@@ -194,10 +195,14 @@
 .header__logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .header__links-container {
   display: flex;
   justify-content: space-between;
+}
+.header__links-container img {
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .header__links-container {
@@ -333,6 +338,7 @@
   min-height: 85px;
   max-width: 270px;
   width: 100%;
+  cursor: pointer;
 }
 @media (max-width: 1127px) {
   .slider__item-container {
@@ -575,6 +581,7 @@
   background-repeat: no-repeat;
   width: 370px;
   height: 338px;
+  cursor: pointer;
 }
 @media (max-width: 1170px) {
   .tripple-img__item1 {
@@ -649,6 +656,7 @@
   background-repeat: no-repeat;
   width: 370px;
   height: 338px;
+  cursor: pointer;
 }
 @media (max-width: 1170px) {
   .tripple-img__item2 {
@@ -723,6 +731,7 @@
   background-repeat: no-repeat;
   width: 370px;
   height: 338px;
+  cursor: pointer;
 }
 @media (max-width: 1170px) {
   .tripple-img__item3 {
@@ -1321,6 +1330,7 @@
 .dropdown-section__dropdown-item {
   display: flex;
   border: 1px solid #c6cbcd;
+  cursor: pointer;
 }
 .dropdown-section__dropdown-item:nth-child(3) {
   margin-bottom: 22px;
@@ -1498,6 +1508,9 @@
   }
 }
 
+.arrow {
+  cursor: pointer;
+}
 @media (max-width: 767px) {
   .arrow {
     display: none;
@@ -1582,6 +1595,7 @@
 }
 .team__pic {
   position: relative;
+  cursor: pointer;
 }
 @media (min-width: 1025px) {
   .team__pic:hover .team__hover {
@@ -1766,12 +1780,15 @@
 }
 .grid-pics__item1 {
   grid-area: 1/1/2/2;
+  cursor: pointer;
 }
 .grid-pics__item2 {
   grid-area: 2/1/3/2;
+  cursor: pointer;
 }
 .grid-pics__item3 {
   grid-area: 1/2/2/3;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .grid-pics__item3 {
@@ -1780,6 +1797,7 @@
 }
 .grid-pics__item4 {
   grid-area: 2/2/3/3;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .grid-pics__item4 {
@@ -1788,6 +1806,7 @@
 }
 .grid-pics__item5 {
   grid-area: 1/3/3/4;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .grid-pics__item5 {
@@ -1795,6 +1814,7 @@
   }
 }
 .grid-pics__item6 {
+  cursor: pointer;
   grid-area: 1/4/2/5;
 }
 @media (max-width: 767px) {
@@ -1803,6 +1823,7 @@
   }
 }
 .grid-pics__item7 {
+  cursor: pointer;
   grid-area: 2/4/3/5;
 }
 @media (max-width: 767px) {
@@ -2076,6 +2097,7 @@
 }
 .blog__views img {
   margin-right: 18px;
+  cursor: pointer;
 }
 .blog__comments {
   display: flex;
@@ -2083,6 +2105,7 @@
 }
 .blog__comments img {
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .latest-blog {
@@ -2319,6 +2342,9 @@
   align-items: center;
   gap: 10px;
 }
+.mogo-section__icons img {
+  cursor: pointer;
+}
 @media (max-width: 960px) {
   .mogo-section__icons {
     flex-wrap: wrap;
@@ -2360,6 +2386,9 @@
   line-height: 21px;
   text-transform: uppercase;
   color: #2d3033;
+}
+.blogs__text h3 {
+  cursor: pointer;
 }
 @media (max-width: 1024px) {
   .blogs__text h3 {

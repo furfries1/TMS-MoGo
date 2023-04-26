@@ -106,6 +106,7 @@
       max-width: 369px;
       width: 100%;
       height: 77.58px;
+      cursor: pointer;
       @media (min-width: 1025px) {
         &:hover {
           background: #ffffff;
@@ -141,11 +142,15 @@
   &__logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
 
   &__links-container {
     display: flex;
     justify-content: space-between;
+    & img {
+      cursor: pointer;
+    }
     @media (max-width: 767px) {
       display: none;
     }
@@ -271,6 +276,7 @@
     min-height: 85px;
     max-width: 270px;
     width: 100%;
+    cursor: pointer;
     @media (max-width: 1127px) {
       max-width: 230px;
     }
@@ -481,6 +487,7 @@
     background-repeat: no-repeat;
     width: 370px;
     height: 338px;
+    cursor: pointer;
     @media (max-width: 1170px) {
       width: 350px;
       height: 318px;
@@ -538,6 +545,7 @@
     background-repeat: no-repeat;
     width: 370px;
     height: 338px;
+    cursor: pointer;
     @media (max-width: 1170px) {
       width: 350px;
       height: 318px;
@@ -594,6 +602,7 @@
     background-repeat: no-repeat;
     width: 370px;
     height: 338px;
+    cursor: pointer;
     @media (max-width: 1170px) {
       width: 350px;
       height: 318px;
@@ -1120,6 +1129,7 @@
   &__dropdown-item {
     display: flex;
     border: 1px solid #c6cbcd;
+    cursor: pointer;
     &:nth-child(3) {
       margin-bottom: 22px;
       @media (max-width: 1024px) {
@@ -1274,6 +1284,7 @@
 }
 
 .arrow {
+  cursor: pointer;
   @media (max-width: 767px) {
     display: none;
   }
@@ -1351,6 +1362,7 @@
   }
   &__pic {
     position: relative;
+    cursor: pointer;
     @media (min-width: 1025px) {
       &:hover {
         .team__hover {
@@ -1543,14 +1555,17 @@
   &__item1 {
     grid-area: 1 / 1 / 2 / 2;
     @extend %grid-hover;
+    cursor: pointer;
   }
   &__item2 {
     @extend %grid-hover;
     grid-area: 2 / 1 / 3 / 2;
+    cursor: pointer;
   }
   &__item3 {
     @extend %grid-hover;
     grid-area: 1 / 2 / 2 / 3;
+    cursor: pointer;
     @media (max-width: 767px) {
       grid-area: 4 / 2 / 5 / 3;
     }
@@ -1558,6 +1573,7 @@
   &__item4 {
     @extend %grid-hover;
     grid-area: 2 / 2 / 3 / 3;
+    cursor: pointer;
     @media (max-width: 767px) {
       grid-area: 5 / 1 / 6 / 3;
     }
@@ -1565,12 +1581,14 @@
   &__item5 {
     grid-area: 1 / 3 / 3 / 4;
     @extend %grid-hover;
+    cursor: pointer;
     @media (max-width: 767px) {
       grid-area: 1 / 2 / 4 / 3;
     }
   }
   &__item6 {
     @extend %grid-hover;
+    cursor: pointer;
     grid-area: 1 / 4 / 2 / 5;
     @media (max-width: 767px) {
       grid-area: 4 / 1 / 5 / 2;
@@ -1578,6 +1596,7 @@
   }
   &__item7 {
     @extend %grid-hover;
+    cursor: pointer;
     grid-area: 2 / 4 / 3 / 5;
     @media (max-width: 767px) {
       grid-area: 3 / 1 / 4 / 2;
@@ -1849,6 +1868,7 @@
     margin-right: 15%;
     & img {
       margin-right: 18px;
+      cursor: pointer;
     }
   }
 
@@ -1857,6 +1877,7 @@
     align-items: center;
     & img {
       margin-right: 20px;
+      cursor: pointer;
     }
   }
 }
@@ -2068,6 +2089,9 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  & img {
+    cursor: pointer;
+  }
   @media (max-width: 960px) {
     flex-wrap: wrap;
   }
@@ -2107,6 +2131,7 @@
     text-transform: uppercase;
     color: #2d3033;
     & h3 {
+      cursor: pointer;
       @media (max-width: 1024px) {
         font-size: 18px;
       }
